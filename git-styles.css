@@ -1,0 +1,67 @@
+/* global styles */
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.hide {
+	display: none;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.container{
+	max-width:960px;
+	margin:0 auto;
+	background:rgba(247,218,229,0.9);
+	padding:15px;
+}
+
+body{
+	background-image: url(../img/git-bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-family: 'Coming Soon', cursive;
+	font-size:20px;
+}
+
+.center{
+	text-align:center;
+}
+
+a:link,
+a:visited,
+a:active {
+	color:rgba(115,63,75,1);
+	font-size:30px;
+}
+
+a:hover{
+	color:rgba(72,64,59,1);
+}
+
+h1{
+	font-family: 'Great Vibes', cursive;
+	color:rgba(105,15,81,1);
+	font-size:70px;
+	text-align:center;
+}
